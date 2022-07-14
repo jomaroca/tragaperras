@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragaperras</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <section>
+
+        <h1>¡Bienvenidos a la Máquina Tragaperras!</h1>
+
+        <header>
+
+            <div class="introduce-monedas">
+                <h3><label for="entradaMonedas"></label>Introduce monedas:</label></h3> 
+                <input type="number" id="entradaMonedas" min="1" value="0">
+                <button id="introducirMonedas">Introducir</button>
+            </div>
+
+            <div class="monedas-actual">
+                <p>El número de monedas actual es de:</span></p>
+                <span id="monedasActuales">0</span>
+            </div>
+
+            <div class="salir">
+                <button id="salir">Salir</button>
+            </div>
+
+        </header>
+
+            <div class="cajas">
+
+                <div class="caja" >
+                    <img id="imagen1" src="img/pingu.png" alt="">
+                </div>
+                <div class="caja"  >
+                    <img id="imagen2" src="img/pingu.png" alt="">
+                </div>
+                <div class="caja" >
+                    <img id="imagen3" src="img/pingu.png" alt="">
+                </div>        
+                <div class="palanca" >
+                    <img id="palanca" src="img/palancaUP.png" alt="">
+                </div>
+
+            </div>
+          
+            <div class="">
+                <h3>Historial de movimientos:</h3>
+                <div class="historial" id="historial"></div>
+            </div>
+                 
+    </section>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

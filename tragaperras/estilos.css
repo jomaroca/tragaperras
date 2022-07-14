@@ -1,0 +1,61 @@
+body{
+  margin:auto;
+  background-image: url(img/random_grey_variations.png);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
+}
+
+header{
+  height:200px;
+}
+
+section{
+  position:relative;
+  text-align: center;
+  padding-left: 15px;
+}
+
+#monedasActuales{
+  font-size:3em;
+  line-height:30px;
+}
+
+#salir{
+  width:255px;
+  text-align: center;
+}
+
+.cajas{
+  display:flex;
+  justify-content:center;
+  margin-bottom:10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.caja{
+  padding:3px;
+  width:180px;
+  height:150px;
+  border:3px solid rgb(255, 255, 255);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.caja:nth-child(2){
+  margin:auto 5px;        
+}
+
+.palanca{
+  cursor:pointer;
+  padding:5px 5px 5px 5px;
+  width:200px;
+  height:150px;
+  box-sizing:border-box;
+}
+
+img{
+  max-width:80%;
+  vertical-align:top;
+}
